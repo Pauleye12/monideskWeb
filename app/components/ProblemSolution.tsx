@@ -13,7 +13,7 @@ export const ProblemSolution: React.FC = () => {
         {/* Main Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20">
           <h2 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-surface-900 tracking-tight leading-[1.14]">
-            <span className="text-cobalt-500">61%</span> of investors under 35
+            <span className="text-mint-700">61%</span> of investors under 35
             take investment ideas from social media.
           </h2>
 
@@ -124,9 +124,9 @@ export const ProblemSolution: React.FC = () => {
             </div>
 
             {/* Right Column: The Solution (MoniDesk Verified Intelligence) */}
-            <div className="relative rounded-3xl bg-white border-2 border-cobalt-500/85 p-6 sm:p-7 flex flex-col justify-between shadow-soft transition-all duration-300 hover:shadow-md">
+            <div className="relative rounded-3xl bg-white border-2 border-mint-700/85 p-6 sm:p-7 flex flex-col justify-between shadow-soft transition-all duration-300 hover:shadow-md">
               {/* Monidesk Pill Badge on top edge */}
-              <div className="absolute -top-3.5 right-8 sm:right-10 bg-cobalt-500 text-white text-[11px] font-bold tracking-tight px-3.5 py-0.5 rounded-full shadow-sm z-10 flex items-center gap-1.5">
+              <div className="absolute -top-3.5 right-8 sm:right-10 bg-mint-700 text-white text-[11px] font-bold tracking-tight px-3.5 py-0.5 rounded-full shadow-sm z-10 flex items-center gap-1.5">
                 <span>Monidesk</span>
               </div>
 

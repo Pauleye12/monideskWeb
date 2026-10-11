@@ -4,6 +4,12 @@ import Herosection from "../components/Herosection";
 import TrustedPartners from "../components/TrustedPartners";
 import ProblemSolution from "../components/ProblemSolution";
 import Features from "../components/Features";
+import GettingStarted from "../components/GettingStarted";
+import Testimonial from "../components/Testimonial";
+import Pricing from "../components/Pricing";
+import FAQ from "../components/FAQ";
+import FInalCall from "../components/FInalCall";
+import Footer from "../components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -26,7 +32,9 @@ export default function Home() {
           { label: "Home", href: "#home" },
           { label: "UBverse", href: "#ubverse" },
           { label: "Features", href: "#features" },
+          { label: "Testimonials", href: "#testimonials" },
           { label: "Pricing", href: "#pricing" },
+          { label: "FAQ", href: "#faq" },
         ]}
         ctaText="Get started"
         ctaHref="#get-started"
@@ -43,6 +51,24 @@ export default function Home() {
 
       {/* Interactive Features Showcase Section */}
       <Features />
+
+      {/* Where a Thesis Goes to Work Section */}
+      <GettingStarted />
+
+      {/* Testimonials Section */}
+      <Testimonial />
+
+      {/* Pricing Section */}
+      <Pricing />
+
+      {/* FAQ Section */}
+      <FAQ />
+
+      {/* Final Call CTA Section */}
+      <FInalCall />
+
+      {/* Footer Section */}
+      <Footer />
 
       {/* UBverse Section */}
       {/* <section id="ubverse" className="py-24 bg-surface-50/40">
@@ -212,41 +238,6 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-
-      {/* Footer */}
-      {/* <footer className="py-12 bg-white border-t border-surface-100 text-xs text-surface-500">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <span className="font-heading font-bold text-surface-900">
-              UnBound X
-            </span>
-            <span>
-              &copy; {new Date().getFullYear()} MoniDesk Inc. All rights
-              reserved.
-            </span>
-          </div>
-          <div className="flex gap-6">
-            <a
-              href="#privacy"
-              className="hover:text-surface-900 transition-colors"
-            >
-              Privacy
-            </a>
-            <a
-              href="#terms"
-              className="hover:text-surface-900 transition-colors"
-            >
-              Terms
-            </a>
-            <a
-              href="#security"
-              className="hover:text-surface-900 transition-colors"
-            >
-              Security
-            </a>
-          </div>
-        </div>
-      </footer> */}
     </div>
   );
 }
