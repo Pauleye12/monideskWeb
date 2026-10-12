@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-const TICKERS = ["$NVDA.", "$AAPL.", "$TSLA.", "$MSFT.", "$BTC."];
+const TICKERS = [
+  "The Best",
+  "AI Insights",
+  "An Upgrade.",
+  "A System.",
+  "Digital Records.",
+];
 
 export const FInalCall: React.FC = () => {
   const [tickerIndex, setTickerIndex] = useState(0);
@@ -25,7 +31,7 @@ export const FInalCall: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Column: Overlapping Mobile Phone Mockups with Halftone Dot Matrix */}
           <div className="lg:col-span-7 flex justify-center lg:justify-start">
-            <div className="relative w-full max-w-[560px] flex items-center justify-center py-6 sm:py-10">
+            <div className="relative w-full max-w-140 flex items-center justify-center py-6 sm:py-10">
               {/* Radial Halftone Dot Grid Background */}
               <div
                 className="absolute -inset-8 sm:-inset-12 opacity-65 pointer-events-none -z-10"
@@ -41,7 +47,7 @@ export const FInalCall: React.FC = () => {
               />
 
               {/* Secondary Phone (Behind, tilted right) */}
-              <div className="absolute right-0 sm:right-6 top-2 sm:top-6 w-[230px] sm:w-[270px] aspect-[9/19] rounded-[42px] bg-surface-900 p-2.5 shadow-2xl rotate-8 sm:rotate-12 translate-x-4 sm:translate-x-8 border-2 border-surface-800 hidden xs:flex flex-col justify-between overflow-hidden opacity-90 transition-all duration-300 hover:opacity-100">
+              <div className="absolute right-0 sm:right-6 top-2 sm:top-6 w-57.5 sm:w-67.5 aspect-9/19 rounded-[42px] bg-surface-900 p-2.5 shadow-2xl rotate-8 sm:rotate-12 translate-x-4 sm:translate-x-8 border-2 border-surface-800 hidden xs:flex flex-col justify-between overflow-hidden opacity-90 transition-all duration-300 hover:opacity-100">
                 <div className="bg-white rounded-[34px] w-full h-full flex flex-col justify-between overflow-hidden relative border border-surface-200/50 p-4">
                   {/* Status header */}
                   <div className="flex items-center justify-between text-[11px] text-surface-500 font-semibold mb-2">
@@ -113,7 +119,7 @@ export const FInalCall: React.FC = () => {
               </div>
 
               {/* Primary Phone (In Front, centered) */}
-              <div className="relative z-10 w-[280px] sm:w-[325px] aspect-[9/19.2] rounded-[46px] bg-surface-900 p-2.5 sm:p-3 shadow-[0_28px_65px_-15px_rgba(15,34,56,0.32)] border-4 border-surface-800 flex flex-col justify-between overflow-hidden">
+              <div className="relative z-10 w-70 sm:w-80 aspect-[9/19.2] rounded-[46px] bg-surface-900 p-2.5 sm:p-3 shadow-[0_28px_65px_-15px_rgba(15,34,56,0.32)] border-4 border-surface-800 flex flex-col justify-between overflow-hidden">
                 <div className="bg-white rounded-[36px] w-full h-full flex flex-col justify-between overflow-hidden relative border border-surface-200/50">
                   {/* Phone Top Notch & Dynamic Island */}
                   <div className="pt-2 px-5 flex items-center justify-between text-[11px] font-semibold text-surface-800">
@@ -417,10 +423,10 @@ export const FInalCall: React.FC = () => {
           {/* Right Column: CTA Headline, Subtitle and Action Button */}
           <div className="lg:col-span-5 text-center lg:text-left space-y-6">
             <h2 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-surface-900 tracking-tight leading-[1.12]">
-              Your first thesis could be about{" "}
-              <span className="text-cobalt-500 inline-flex items-center">
+              Your business deserves{" "}
+              <span className="text-mint-700 inline-flex items-center">
                 {TICKERS[tickerIndex]}
-                <span className="w-0.5 sm:w-[3px] h-8 sm:h-12 bg-mint-700 ml-1 inline-block animate-pulse" />
+                <span className="w-0.5 sm:w-0.75 h-8 sm:h-12 bg-mint-700 ml-1 inline-block animate-pulse" />
               </span>
             </h2>
 
@@ -431,16 +437,16 @@ export const FInalCall: React.FC = () => {
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a
                 href="#get-started"
-                className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-cobalt-500 hover:bg-cobalt-600 text-white font-semibold text-base transition-all duration-200 shadow-[0_10px_28px_rgba(73,124,242,0.35)] hover:scale-[1.02] active:scale-[0.98]"
+                className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-surface-900 hover:bg-surface-800 text-white font-semibold text-sm transition-all duration-200 shadow-soft hover:scale-[1.02] active:scale-[0.98]"
               >
                 <span>Start your record</span>
-                <span className="bg-white/20 rounded-full w-7 h-7 flex items-center justify-center transition-transform duration-200 group-hover:translate-x-1">
+                <span className="bg-white rounded-full w-8 h-8 grid place-items-center group-hover:translate-x-4 transition-all duration-200">
                   <svg
-                    className="w-4 h-4 text-white"
+                    className="w-4 h-4"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2.5}
+                    stroke="#0f2238"
+                    strokeWidth={2}
                   >
                     <path
                       strokeLinecap="round"

@@ -235,7 +235,7 @@ export const Testimonial: React.FC = () => {
   return (
     <section
       id="testimonials"
-      className="relative py-20 sm:py-28 overflow-hidden bg-mint-700 border-t border-surface-100"
+      className="relative py-20 sm:py-28 overflow-hidden bg-surface-900 border-t border-surface-100"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >

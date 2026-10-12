@@ -42,7 +42,6 @@ export const Footer: React.FC<FooterProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -translate-y-1/2">
         <div className="relative rounded-3xl sm:rounded-[32px] bg-white text-surface-900 border border-surface-200/90 shadow-[0_20px_50px_rgba(15,34,56,0.14)] p-6 sm:p-8 lg:p-10 backdrop-blur-xs">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-            
             {/* Left Column: Thesis Mini Widget (NVDA Long Card) */}
             <div className="lg:col-span-4 flex justify-center lg:justify-start">
               <div className="w-full max-w-[320px] rounded-2xl bg-white border border-surface-200/80 p-5 shadow-xs transition-all duration-300 hover:shadow-soft">
@@ -59,7 +58,9 @@ export const Footer: React.FC<FooterProps> = ({
                 {/* Key Metrics */}
                 <div className="py-3.5 space-y-2.5 text-xs">
                   <div className="flex items-center justify-between">
-                    <span className="text-surface-500 font-medium">Entered</span>
+                    <span className="text-surface-500 font-medium">
+                      Entered
+                    </span>
                     <span className="text-surface-900 font-bold font-mono text-sm">
                       $219.86
                     </span>
@@ -96,7 +97,9 @@ export const Footer: React.FC<FooterProps> = ({
 
                   {/* Timeline Labels */}
                   <div className="flex items-center justify-between text-[11px] mt-1.5 font-medium">
-                    <span className="text-cobalt-500 font-semibold">Published</span>
+                    <span className="text-cobalt-500 font-semibold">
+                      Published
+                    </span>
                     <span className="text-surface-400">Settled</span>
                   </div>
                 </div>
@@ -106,25 +109,25 @@ export const Footer: React.FC<FooterProps> = ({
             {/* Middle Column: Headline, Pitch & CTA Button */}
             <div className="lg:col-span-5 text-center lg:text-left space-y-4">
               <h3 className="font-heading font-black text-2xl sm:text-3xl lg:text-[34px] text-surface-900 tracking-tight leading-[1.16]">
-                Put your market ideas on the record.
+                Put your store on monidesk.
               </h3>
               <p className="font-sans text-sm sm:text-base text-surface-500 leading-relaxed max-w-md mx-auto lg:mx-0">
-                Write down what you think and see how it holds up when the market decides.
+                Write down what you think and see how it holds up when the
+                market decides.
               </p>
               <div className="pt-2 flex justify-center lg:justify-start">
                 <a
                   href="#get-started"
-                  onClick={(e) => handleLinkClick(e, "#get-started")}
-                  className="group inline-flex items-center gap-3 px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-cobalt-500 hover:bg-cobalt-600 text-white font-semibold text-sm sm:text-base transition-all duration-200 shadow-[0_10px_25px_rgba(73,124,242,0.32)] hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-surface-900 hover:bg-surface-800 text-white font-semibold text-sm transition-all duration-200 shadow-soft hover:scale-[1.02] active:scale-[0.98]"
                 >
                   <span>Start your record</span>
-                  <span className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center transition-transform duration-200 group-hover:translate-x-1">
+                  <span className="bg-white rounded-full w-8 h-8 grid place-items-center group-hover:translate-x-4 transition-all duration-200">
                     <svg
-                      className="w-3.5 h-3.5 text-white"
+                      className="w-4 h-4"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2.5}
+                      stroke="#0f2238"
+                      strokeWidth={2}
                     >
                       <path
                         strokeLinecap="round"
@@ -148,51 +151,275 @@ export const Footer: React.FC<FooterProps> = ({
                   aria-label="QR Code"
                 >
                   {/* Top-Left Finder */}
-                  <rect x="6" y="6" width="28" height="28" rx="5" fill="#0f2238" />
-                  <rect x="12" y="12" width="16" height="16" rx="3" fill="#ffffff" />
-                  <rect x="16" y="16" width="8" height="8" rx="2" fill="#0f2238" />
+                  <rect
+                    x="6"
+                    y="6"
+                    width="28"
+                    height="28"
+                    rx="5"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="12"
+                    y="12"
+                    width="16"
+                    height="16"
+                    rx="3"
+                    fill="#ffffff"
+                  />
+                  <rect
+                    x="16"
+                    y="16"
+                    width="8"
+                    height="8"
+                    rx="2"
+                    fill="#0f2238"
+                  />
 
                   {/* Top-Right Finder */}
-                  <rect x="66" y="6" width="28" height="28" rx="5" fill="#0f2238" />
-                  <rect x="72" y="12" width="16" height="16" rx="3" fill="#ffffff" />
-                  <rect x="76" y="16" width="8" height="8" rx="2" fill="#0f2238" />
+                  <rect
+                    x="66"
+                    y="6"
+                    width="28"
+                    height="28"
+                    rx="5"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="72"
+                    y="12"
+                    width="16"
+                    height="16"
+                    rx="3"
+                    fill="#ffffff"
+                  />
+                  <rect
+                    x="76"
+                    y="16"
+                    width="8"
+                    height="8"
+                    rx="2"
+                    fill="#0f2238"
+                  />
 
                   {/* Bottom-Left Finder */}
-                  <rect x="6" y="66" width="28" height="28" rx="5" fill="#0f2238" />
-                  <rect x="12" y="72" width="16" height="16" rx="3" fill="#ffffff" />
-                  <rect x="16" y="76" width="8" height="8" rx="2" fill="#0f2238" />
+                  <rect
+                    x="6"
+                    y="66"
+                    width="28"
+                    height="28"
+                    rx="5"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="12"
+                    y="72"
+                    width="16"
+                    height="16"
+                    rx="3"
+                    fill="#ffffff"
+                  />
+                  <rect
+                    x="16"
+                    y="76"
+                    width="8"
+                    height="8"
+                    rx="2"
+                    fill="#0f2238"
+                  />
 
                   {/* Realistic Data Modules Matrix */}
-                  <rect x="40" y="8" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="50" y="8" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="40" y="18" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="52" y="22" width="8" height="6" rx="1.2" fill="#0f2238" />
+                  <rect
+                    x="40"
+                    y="8"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="50"
+                    y="8"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="40"
+                    y="18"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="52"
+                    y="22"
+                    width="8"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
 
-                  <rect x="8" y="40" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="20" y="42" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="8" y="52" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="22" y="52" width="6" height="6" rx="1.2" fill="#0f2238" />
+                  <rect
+                    x="8"
+                    y="40"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="20"
+                    y="42"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="8"
+                    y="52"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="22"
+                    y="52"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
 
                   {/* Center Pattern */}
-                  <rect x="38" y="38" width="8" height="8" rx="2" fill="#497cf2" />
-                  <rect x="52" y="38" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="40" y="50" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="50" y="48" width="8" height="8" rx="1.5" fill="#0f2238" />
+                  <rect
+                    x="38"
+                    y="38"
+                    width="8"
+                    height="8"
+                    rx="2"
+                    fill="#497cf2"
+                  />
+                  <rect
+                    x="52"
+                    y="38"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="40"
+                    y="50"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="50"
+                    y="48"
+                    width="8"
+                    height="8"
+                    rx="1.5"
+                    fill="#0f2238"
+                  />
 
                   {/* Alignment & Bottom-Right Data Area */}
-                  <rect x="68" y="40" width="8" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="82" y="40" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="68" y="52" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="80" y="50" width="8" height="6" rx="1.2" fill="#0f2238" />
+                  <rect
+                    x="68"
+                    y="40"
+                    width="8"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="82"
+                    y="40"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="68"
+                    y="52"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="80"
+                    y="50"
+                    width="8"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
 
-                  <rect x="40" y="66" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="52" y="68" width="6" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="40" y="78" width="8" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="52" y="82" width="6" height="6" rx="1.2" fill="#0f2238" />
+                  <rect
+                    x="40"
+                    y="66"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="52"
+                    y="68"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="40"
+                    y="78"
+                    width="8"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="52"
+                    y="82"
+                    width="6"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
 
-                  <rect x="68" y="68" width="12" height="6" rx="1.2" fill="#0f2238" />
-                  <rect x="68" y="78" width="6" height="10" rx="1.2" fill="#0f2238" />
-                  <rect x="80" y="76" width="8" height="8" rx="1.5" fill="#0f2238" />
+                  <rect
+                    x="68"
+                    y="68"
+                    width="12"
+                    height="6"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="68"
+                    y="78"
+                    width="6"
+                    height="10"
+                    rx="1.2"
+                    fill="#0f2238"
+                  />
+                  <rect
+                    x="80"
+                    y="76"
+                    width="8"
+                    height="8"
+                    rx="1.5"
+                    fill="#0f2238"
+                  />
                 </svg>
               </div>
 
@@ -206,7 +433,6 @@ export const Footer: React.FC<FooterProps> = ({
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -220,7 +446,6 @@ export const Footer: React.FC<FooterProps> = ({
       */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-2 sm:mt-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 items-start">
-          
           {/* Brand Info & Socials (Col 1-5) */}
           <div className="lg:col-span-5 space-y-5">
             {/* Logo + Brand Heading */}
@@ -265,7 +490,9 @@ export const Footer: React.FC<FooterProps> = ({
                 </span>
                 <span className="font-sans text-[11px] text-surface-400 font-medium tracking-wide block mt-0.5">
                   {taglinePrefix}{" "}
-                  <span className="text-cobalt-400 font-bold">{taglineAccent}</span>
+                  <span className="text-cobalt-400 font-bold">
+                    {taglineAccent}
+                  </span>
                 </span>
               </div>
             </a>
@@ -450,7 +677,6 @@ export const Footer: React.FC<FooterProps> = ({
               </ul>
             </div>
           </div>
-
         </div>
 
         {/* 
@@ -462,7 +688,8 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="mt-16 sm:mt-20 pt-8 border-t border-surface-800/80 flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Copyright */}
           <div className="font-sans text-xs text-surface-400 text-center sm:text-left">
-            &copy; {new Date().getFullYear()} {brandName.replace(/\s+/g, "")}. All rights reserved.
+            &copy; {new Date().getFullYear()} {brandName.replace(/\s+/g, "")}.
+            All rights reserved.
           </div>
 
           {/* Legal Links & Scroll-to-Top Button */}

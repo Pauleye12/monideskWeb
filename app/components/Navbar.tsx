@@ -86,34 +86,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             }
           >
             {/* Glossy gradient logo icon matching the screenshot */}
-            <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-linear-to-tr from-amber-500 via-rose-500 to-indigo-600 p-[1.5px] shadow-sm transition-transform duration-200 group-hover:scale-105">
-              <div className="w-full h-full rounded-full bg-white/10 dark:bg-black/10 backdrop-blur-xs flex items-center justify-center">
-                <svg
-                  viewBox="0 0 28 28"
-                  className="w-5 h-5 text-white drop-shadow-sm fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  {/* Modern Stylized Ribbon / Monogram curve */}
-                  <path
-                    d="M7 6.5C7 5.67 7.67 5 8.5 5H10C10.83 5 11.5 5.67 11.5 6.5V14.5C11.5 16.71 13.29 18.5 15.5 18.5C17.71 18.5 19.5 16.71 19.5 14.5V6.5C19.5 5.67 20.17 5 21 5H22.5C23.33 5 24 5.67 24 6.5V14.5C24 19.19 20.19 23 15.5 23C10.81 23 7 19.19 7 14.5V6.5Z"
-                    fill="url(#logo-gradient)"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="logo-gradient"
-                      x1="7"
-                      y1="5"
-                      x2="24"
-                      y2="23"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#ffffff" />
-                      <stop offset="0.6" stopColor="#fed7aa" />
-                      <stop offset="1" stopColor="#ffffff" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
+            <div className="w-8 h-8 sm:w-9 sm:h-9 ">
+              <img src="favicon.svg" alt="" />
             </div>
 
             <span className="font-heading font-bold text-base sm:text-lg tracking-tight text-surface-900 dark:text-white group-hover:text-surface-700 transition-colors">
@@ -139,7 +113,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   <span>{item.label}</span>
                   {isActive && (
                     <span
-                      className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-5 sm:w-6 h-[2.5px] rounded-full bg-cobalt-500 transition-all duration-300"
+                      className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-5 sm:w-6 h-[2.5px] rounded-full bg-mint-700 transition-all duration-300"
                       aria-hidden="true"
                     />
                   )}
