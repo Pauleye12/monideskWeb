@@ -59,7 +59,9 @@ export const Herosection: React.FC = () => {
             {/* Actions */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-2">
               <a
-                href="#get-started"
+                href="https://monidesk-frontend-dev-i3pu.onrender.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-surface-900 hover:bg-surface-800 text-white font-semibold text-sm transition-all duration-200 shadow-soft hover:scale-[1.02] active:scale-[0.98]"
               >
                 <span>Start free trial</span>

@@ -30,14 +30,14 @@ export default function Home() {
         brandName="UnBound X"
         items={[
           { label: "Home", href: "#home" },
-          { label: "UBverse", href: "#ubverse" },
+          // { label: "", href: "#ubverse" },
           { label: "Features", href: "#features" },
           { label: "Testimonials", href: "#testimonials" },
           { label: "Pricing", href: "#pricing" },
           { label: "FAQ", href: "#faq" },
         ]}
         ctaText="Get started"
-        ctaHref="#get-started"
+        ctaHref="https://monidesk-frontend-dev-i3pu.onrender.com/login"
       />
 
       {/* Hero Section */}

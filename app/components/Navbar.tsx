@@ -17,7 +17,7 @@ export interface NavbarProps {
 
 const DEFAULT_ITEMS: NavItem[] = [
   { label: "Home", href: "#home" },
-  { label: "MoniDesk", href: "#ubverse" },
+  { label: "MoniDesk", href: "#monidesk" },
   { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
 ];

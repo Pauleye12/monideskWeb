@@ -10,7 +10,7 @@ export const GettingStarted: React.FC = () => {
         {/* Main Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20 sm:mb-28">
           <h2 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-surface-900 tracking-tight leading-[1.15]">
-            Where a thesis <span className="text-mint-700">goes to work.</span>
+            How To <span className="text-mint-700">Get Started.</span>
           </h2>
           <p className="font-sans text-sm sm:text-base text-surface-500 mt-4 leading-relaxed max-w-xl mx-auto">
             Everything below starts from the same object: a call with a target,
