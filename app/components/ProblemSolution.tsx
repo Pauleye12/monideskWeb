@@ -13,18 +13,18 @@ export const ProblemSolution: React.FC = () => {
         {/* Main Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20">
           <h2 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-surface-900 tracking-tight leading-[1.14]">
-            <span className="text-mint-700">61%</span> of investors under 35
-            take investment ideas from social media.
+            One app for your sales, stock, and{" "}
+            <span className="text-mint-700">Business Insights.</span>
           </h2>
 
           <p className="font-heading font-semibold text-base sm:text-lg md:text-xl text-surface-700 max-w-2xl mx-auto mt-4 sm:mt-5 leading-relaxed">
-            Most ideas disappear into the feed. The outcome usually disappears
-            with them.
+            Record every sale in one place. Stock updates as you sell, customer
+            balances stay visible, and every day MoniDesk tells you what to
+            restock, who to chase, and what to improve
           </p>
 
           <p className="text-[11px] sm:text-xs text-surface-400 mt-3 tracking-wide">
-            FINRA Investor Education Foundation, National Financial Capability
-            Study, 2025
+            Notebook or MoniDesk? See the difference below ↓
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export const ProblemSolution: React.FC = () => {
               <div>
                 {/* Column Headline */}
                 <h3 className="font-heading font-semibold text-sm sm:text-base text-surface-500 text-center mb-6">
-                  Online, you can&apos;t tell who is actually right.
+                  In notebooks and chats, you’re left to guess
                 </h3>
 
                 {/* Social Media Post Simulation */}
@@ -51,54 +51,106 @@ export const ProblemSolution: React.FC = () => {
                   {/* Author Header */}
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="w-9 h-9 rounded-full bg-surface-100 text-surface-600 font-bold text-xs flex items-center justify-center">
-                        MM
+                      <div className="relative">
+                        <div className="w-9 h-9 rounded-full bg-emerald-100 text-emerald-800 font-bold text-xs flex items-center justify-center">
+                          C
+                        </div>
+                        <span className="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-[#25D366] rounded-full border-2 border-white flex items-center justify-center">
+                          <svg
+                            className="w-2 h-2 text-white"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2ZM12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.04 3.67C16.58 3.67 20.28 7.37 20.28 11.91C20.28 16.45 16.58 20.15 12.04 20.15Z" />
+                          </svg>
+                        </span>
                       </div>
                       <div>
                         <div className="font-heading font-bold text-sm text-surface-900 leading-none">
-                          MarketMaverick
+                          Customer
                         </div>
                         <div className="text-xs text-surface-400 mt-1">
-                          @mavmarkets
+                          WhatsApp
                         </div>
                       </div>
                     </div>
-                    <span className="text-xs text-surface-400">2h</span>
+                    <span className="text-xs text-surface-400 font-medium">2h</span>
                   </div>
 
-                  {/* Post Content */}
-                  <p className="text-sm text-surface-800 mt-3.5 leading-relaxed font-sans">
-                    NVDA is going to rip before earnings. Loaded up calls this
-                    morning, I am up 312% on the year.
-                  </p>
-
-                  {/* Post Stats */}
-                  <div className="flex items-center gap-3 sm:gap-4 text-[11px] sm:text-xs text-surface-400 mt-4 pb-3.5 border-b border-surface-100 font-medium">
-                    <span>
-                      <strong className="text-surface-700">1,204</strong> likes
-                    </span>
-                    <span>
-                      <strong className="text-surface-700">212</strong> reposts
-                    </span>
-                    <span>
-                      <strong className="text-surface-700">89</strong> replies
-                    </span>
-                    <span>
-                      <strong className="text-surface-700">84.2K</strong> views
-                    </span>
+                  {/* Message Content */}
+                  <div className="mt-3.5 bg-surface-50/80 border border-surface-200/60 rounded-2xl rounded-tl-xs p-3.5 shadow-2xs">
+                    <p className="text-sm text-surface-800 leading-relaxed font-sans">
+                      “Do you still have the queen size? I’ll come by tomorrow.”
+                    </p>
                   </div>
 
-                  {/* Skeptical Reply */}
-                  <div className="flex items-start gap-2.5 mt-3 pt-1">
-                    <div className="w-6 h-6 rounded-full bg-surface-100 text-surface-500 font-bold text-[10px] flex items-center justify-center shrink-0 mt-0.5">
-                      DR
-                    </div>
-                    <div>
-                      <span className="font-bold text-xs text-surface-700">
-                        @d_reyes
+                  {/* Footer Row */}
+                  <div className="flex items-center justify-between text-[11px] sm:text-xs text-surface-400 mt-4 pb-3.5 border-b border-surface-100 font-medium">
+                    <div className="flex items-center gap-1.5 text-surface-500">
+                      <svg
+                        className="w-3.5 h-3.5 text-surface-400 shrink-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                        />
+                      </svg>
+                      <span>
+                        Notebook,{" "}
+                        <strong className="text-surface-700">page 14</strong>
                       </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="inline-flex items-center justify-center min-w-4.5 h-4.5 px-1.5 text-[10px] font-bold bg-[#25D366] text-white rounded-full">
+                        38
+                      </span>
+                      <span className="text-surface-600">unread chats</span>
+                    </div>
+                  </div>
+
+                  {/* Reply Line */}
+                  <div className="flex items-start gap-2.5 mt-3 pt-1">
+                    <div className="w-6 h-6 rounded-full bg-surface-100 text-surface-600 font-bold text-[10px] flex items-center justify-center shrink-0 mt-0.5">
+                      You
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-xs text-surface-700">
+                          You
+                        </span>
+                        <span
+                          className="text-surface-400 flex items-center"
+                          title="Delivered"
+                        >
+                          <svg
+                            className="w-3.5 h-3.5 text-surface-400"
+                            viewBox="0 0 16 15"
+                            fill="none"
+                          >
+                            <path
+                              d="M15 4.5L7.5 12L4.5 9"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M10.5 4.5L6.5 8.5"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
                       <p className="text-xs text-surface-500 mt-0.5">
-                        hey did this one ever actually work out?
+                        “I think so? Let me check what’s left.”
                       </p>
                     </div>
                   </div>
@@ -108,10 +160,10 @@ export const ProblemSolution: React.FC = () => {
               {/* No Track Record Bottom Banner */}
               <div className="rounded-2xl border border-dashed border-surface-300/80 bg-white/50 p-4 text-center mt-6">
                 <div className="font-heading font-semibold text-xs sm:text-sm text-surface-400">
-                  No track record available
+                  What your notebook can’t tell you
                 </div>
                 <div className="text-[11px] sm:text-xs text-surface-400 mt-1">
-                  No target, no date, no way to check what happened next.
+                  No stock count. No balances. No weekly totals. No next step
                 </div>
               </div>
             </div>

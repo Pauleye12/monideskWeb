@@ -37,9 +37,9 @@ const FEATURE_TABS: FeatureTab[] = [
     id: "dashboard",
     name: "Dashboard",
     img: "/dashboardFeat.png",
-    headline: "Instant Analysis at a glance",
+    headline: "See Your Whole Business At A Glance",
     description:
-      "Monidesk provides a detailed overview of your business finances, inventory and customers at a single glance. ",
+      "Your sales, expenses, average sale and customer numbers sit on one screen. Pick any date range and every figure updates with it.. ",
     bullets: [
       {
         label: "Business Insights",
@@ -137,9 +137,9 @@ const FEATURE_TABS: FeatureTab[] = [
     id: "Inventory",
     name: "Inventory Management",
     img: "/inventory.png",
-    headline: "Track and Monitor your Inventory with Clarity and Ease",
+    headline: "Always Know What's In Stock",
     description:
-      "Monidesk allows you to create your inventory, create variants of each inventory, monitor and track each item, record bad stocks and expirations, and finally Low stock alert .",
+      "Add your products with their sizes or variants, record stock when it arrives, and watch the count drop with every sale with monidesk",
     bullets: [
       {
         label: "Monitor Inventory",
@@ -239,7 +239,7 @@ const FEATURE_TABS: FeatureTab[] = [
     img: "/sales.png",
     headline: "Record, Track and Organize Sales Digitally",
     description:
-      "Monidesk helps you record, track and organize your sales all in one go.",
+      "Pick the product, choose how you were paid, note where the sale came from, and save. Your stock updates itself with monidesk.",
     bullets: [
       {
         label: "Record Sales",
@@ -318,9 +318,9 @@ const FEATURE_TABS: FeatureTab[] = [
     id: "Expenses",
     name: "Expenses",
     img: "/expenses.png",
-    headline: " Record Your Expenses With Monidesk ",
+    headline: " Know Where Your Money Goes ",
     description:
-      "Monidesk provides a digital record of your expenses  and helps you do the maths to stay informed",
+      "Log what you spend as you spend it, so you can see what’s left from your sales instead of guessing.",
     bullets: [
       {
         label: "Expense Tracking",
@@ -381,9 +381,9 @@ const FEATURE_TABS: FeatureTab[] = [
     id: "customers",
     name: "Customers",
     img: "/customer.png",
-    headline: "Keep Your Customers Organized and Updated",
+    headline: "Know Who Buys And Who Comes Back",
     description:
-      "Monidesk helps you keep track of all your customers in one central location, manage them and group them.",
+      "Every customer has a record of what they’ve bought and spent. MoniDesk shows you your repeat buyers and your top customers.",
     bullets: [
       {
         label: "Customer Organization",
@@ -812,13 +812,12 @@ export const Features: React.FC = () => {
           className="text-center max-w-3xl mx-auto mb-12 sm:mb-16"
         >
           <h2 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl text-surface-900 tracking-tight leading-[1.15]">
-            Managing your business finances starts with Monidesk
+            Everything you do in a day, recorded in one place.
           </h2>
           <p className="font-sans text-sm sm:text-base text-surface-500 mt-4 leading-relaxed">
-            A clear financial overview and tracking brings peace of mind, while
-            a budgeting app provides insights and helps you save smarter.
-            Business finance is key to managing daily needs and planning for the
-            future.
+            From the first sale of the morning to the last balance you’re still
+            owed, MoniDesk keeps the record so you don’t have to carry it in
+            your head.
           </p>
         </motion.div>
 
